@@ -128,12 +128,12 @@ g++ -O3 -march=native -std=c++23 solver.cpp -o solver
 
 ## Example checklist
 
-- [ ] Validate 20-char test case lines and reject malformed inputs early.
-- [ ] Ensure pawn is never on the sliding tile during a slide.
-- [ ] BFS only yields “resting spots” (holes/exit), not arbitrary intermediate positions.
-- [ ] Heuristic never overestimates (admissible).
-- [ ] Use CompactState as the unordered_map key for min-cost pruning.
-- [ ] Write outputs consistently for post-run analysis.
+- [x] Validate 20-char test case lines and reject malformed inputs early.
+- [x] Ensure pawn is never on the sliding tile during a slide.
+- [x] BFS only yields “resting spots” (holes/exit), not arbitrary intermediate positions.
+- [x] Heuristic never overestimates (admissible).
+- [x] Use CompactState as the unordered_map key for min-cost pruning.
+- [x] Write outputs consistently for post-run analysis.
 
 ---
 Happy puzzling and fast escapes!
