@@ -125,7 +125,7 @@ g++ -O3 -march=native -std=c++23 solver.cpp -o solver
 - `output.txt`: Solution path for each test.
 - `error.txt`: Diagnostics (states explored, runtime).
 - `assets/tiles.png`: Tile legend/diagram used in this README.
-- `assets/orignal_readme.pdf`: This is the orignal readme file that I submitted for the course AI20201.
+- `assets/orignal_readme.pdf`: This is the original readme file that I submitted for the course AI20201.
 
 
 ## Example checklist
